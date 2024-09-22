@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spider-Man</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Spider Man</h1>
+    <img src="assets/spiderman_img.png" id="mainImg" />
+    <h2>About</h2>
+    <p>
+      <b>Spider-Man</b> is a superhero appearing in American comic books
+      published by
+      <a href="https://www.google.com/search?q=Marvel+Comics">Marvel Comics</a>.
+      Created by writer-editor <b>Stan Lee</b> and artist <b>Steve Ditko</b>, he
+      first appeared in the anthology comic book
+      <a href="https://www.google.com/search?q=Amazing+Fantasy"
+        >Amazing Fantasy</a
+      >
+      #15 (August 1962) in the <a href="#">Silver Age of Comic Books</a>. He has
+      been featured in comic books, television shows, films, video games,
+      novels, and plays
+    </p>
+
+    <div class="box">
+      <h4>Publication Info</h4>
+      <ul>
+        <li><a href="#" class="boxLink">Publisher</a></li>
+        <li><a href="#" class="boxLink">First Appearance</a></li>
+        <li>
+          Created by
+          <ul>
+            <li><a href="#" class="boxLink">Stan Lee</a></li>
+            <li><a href="#" class="boxLink">Steve Ditko</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <h2>Creation & Development</h2>
+    <p id="description">
+      In 1962, with the success of the Fantastic Four, Marvel Comics editor and
+      head writer Stan Lee was casting for a new superhero idea. He said the
+      idea for Spider-Man arose from a surge in teenage demand for comic books
+      and the desire to create a character with whom teens could identify. As
+      with Fantastic Four, Lee saw Spider-Man as an opportunity to "get out of
+      his system" what he felt was missing in comic books. In his autobiography,
+      Lee cites the non-superhuman pulp magazine crime fighter the Spider as a
+      great influence, and in a multitude of print and video interviews, Lee
+      stated he was further inspired by seeing a spider climb up a wall—adding
+      in his autobiography that he has told that story so often he has become
+      unsure of whether or not this is true.
+    </p>
+    <div class="images">
+      <img src="assets/creation_1.png" class="oldImg" />
+      <img src="assets/creation_2.jpeg" class="oldImg" />
+      <img src="assets/creation_3.jpeg" class="oldImg" />
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
+<!-- document.all[8].innerText = "Peter Parker"; -->
+
+<!-- Selecting Elements 
+    1.) getElementByld:-  Returns the element as an object or null(if not found)
+    syntax  =>  documrent.getElementBtId("__");
+
+    2.) getElementByClassName:-  Returns the Elements as an HTML collection or empty collection(if not found)
+    syntax  =>  documrent.getElementByClassName("__");
+
+    3.) getElementByTagName:-  Returns the elements as an HTML collection or empty collection (if not found)
+    syntax  =>  documrent.getElementByTagName("__");
+    -->
+
+<!-- Query Selectors:- allows us to use any css selector [it selects only 1st element, it dosen't matter how many same tags are present their. 
+     and whenever when need all tags, then we can use a special syntax:- querySelectorAll("__");]
+     Eg. console.dir(document.querySelector("h1"))
+  -->
+
+<!-- Using properties & methods
+ 1.)  innerText => shows the visible text contained in a node 
+ 2.)  textContent => shows all the full text
+ 3.)  innetHTML =>  shows the full markup
+ -->
+
+<!-- Manipulating Attrbutes
+  obj.getAttributes(attr)
+  obj.setAttribute(attr,val)
+  -->
+
+<!-- Manipulating Style
+ style property
+ => obj.style 
+ 
+ to assing the value of class we use classList
+ => obj.classList:- 
+      classList.add() -> to add new classes
+      classList.remove() -> to remove classes
+      classList.contains() -> to check if class exists
+      classList.toggle() -> to toggle between add & remove.
+      -->
+
+<!-- Nevigation
+ parentElement -> always a single parent  
+ children -> it can be multiple or any number
+ previousElementSibling / nextElementSibling -->
+
+<!-- Adding Elements
+ syntax => document.createElement('__') 
+ * appendChild(element) :- used to insert any element
+ * append(element) :- it also use for same functon, it add in last of the page
+ * prepend(element) :- it add first of the page
+ * insertAdjacent(where, element) -->
+
+<!-- Removing Elements
+ * removingChild(elemnet)
+ * remove(element) -->
+
+
+<!-- Practice Qs -->
+<!-- Add the following elements to the container using only JavaScript and the DOM mehthods. -->
+
+<!-- a <p> with red text thart says "Hey I'm red!" -->
+<!-- an <h3> with blue text that says "I'm a blue h3!" -->
+<!-- a <div> with a black border and pink background color with the following elements elements inside of it:
+      * another <h1> that says "I'm in a div" 
+      * a <p> that says "ME TOO!"-->

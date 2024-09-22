@@ -1,0 +1,7 @@
+<!-- TERMINAL:- A text input and output environment -->
+# command line - any interface that is used by entering textual commands(gen. Windows centric)
+# Terminal - This is a type of command lilne (gen. Mac centric)
+# Console - A command-line interface used to woek with your computer
+# Shell - A program running on terminal 
+# Bash - A program running on MAc OS / Linux
+# Z-shell - Another shell (default)
